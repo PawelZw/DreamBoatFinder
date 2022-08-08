@@ -20,4 +20,5 @@ public interface Builder {
    void setTypeOfFuel(TypeOfFuel typeOfFuel);
    void setEnginePower(int enginePower);
    void setIsThereACabin(boolean isThereACabin);
+   void setMaxSpeed(int maxSpeed);
 }

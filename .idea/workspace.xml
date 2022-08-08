@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/director/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/boats/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/Boat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/boats/HullMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/HullMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boats/HullType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/HullType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boats/Manual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/Manual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/buildersmotorboats/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buildersmotorboats/Builder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/buildersmotorboats/MotorBoatBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buildersmotorboats/MotorBoatBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/buildersmotorboats/MotorBoatManualBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buildersmotorboats/MotorBoatManualBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/director/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/director/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/director/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/motorboats/ManualMotorBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/motorboats/ManualMotorBoat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/motorboats/MotorBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/motorboats/MotorBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/motorboats/TypeOfFuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/motorboats/TypeOfFuel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sailingboats/ManualSailingBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sailingboats/ManualSailingBoat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sailingboats/SailingBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sailingboats/SailingBoat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +44,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="director.Application" />
@@ -75,16 +80,5 @@
       <updated>1659945495388</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

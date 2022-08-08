@@ -11,9 +11,11 @@ public class Boat {
     private char projectCategory;
     private final HullMaterial hullMaterial;
     private final HullType hullType;
+    private final int maxSpeed;
 
     public Boat(String brand, String model, String countryOfOrigin, double length, double price,
-                double weight, int seats, char projectCategory, HullMaterial hullMaterial, HullType hullType) {
+                double weight, int seats, char projectCategory, HullMaterial hullMaterial, HullType hullType,
+                int maxSpeed) {
         this.brand = brand;
         this.model = model;
         this.countryOfOrigin = countryOfOrigin;
@@ -24,6 +26,7 @@ public class Boat {
         this.projectCategory = projectCategory;
         this.hullMaterial = hullMaterial;
         this.hullType = hullType;
+        this.maxSpeed = maxSpeed;
     }
 
     public String getBrand() {
@@ -61,4 +64,5 @@ public class Boat {
     public HullType getHullType() {
         return hullType;
     }
+    public int getMaxSpeed() { return maxSpeed; }
 }

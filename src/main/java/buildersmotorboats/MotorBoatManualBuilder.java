@@ -2,6 +2,7 @@ package buildersmotorboats;
 
 import boats.HullMaterial;
 import boats.HullType;
+import boats.Manual;
 import motorboats.TypeOfFuel;
 
 public class MotorBoatManualBuilder implements Builder{
@@ -19,6 +20,7 @@ public class MotorBoatManualBuilder implements Builder{
     private TypeOfFuel typeOfFuel;
     private int enginePower;
     private boolean isThereACabin;
+    private int maxSpeed;
 
     @Override
     public void setBrand(String brand) {
@@ -84,4 +86,14 @@ public class MotorBoatManualBuilder implements Builder{
     public void setIsThereACabin(boolean isThereACabin) {
 
     }
+
+    @Override
+    public void setMaxSpeed(int maxSpeed) {
+
+    }
+    public Manual getResult() {
+        return new Manual(brand, model, countryOfOrigin, length, price, seats, projectCategory,
+                hullMaterial, hullType, maxSpeed);
+    }
+
 }

@@ -1,14 +1,12 @@
 package director;
 
+import boats.Manual;
 import buildersmotorboats.MotorBoatBuilder;
+import buildersmotorboats.MotorBoatManualBuilder;
 import motorboats.MotorBoat;
 
 public class Application {
     public static void main(String[] args) {
-
-        Car c = new Car("Daewoo", "matiz", 1999);
-        System.out.println(c);
-
 
         Director director = new Director();
 
@@ -17,5 +15,11 @@ public class Application {
 
         MotorBoat motorBoat = builder.getResult();
         System.out.println("Boat built:\n" + motorBoat.getHullMaterial());
+
+        MotorBoatManualBuilder motorBoatManualBuilder = new MotorBoatManualBuilder();
+
+        director.constructXoBoat(motorBoatManualBuilder);
+        Manual motorBoatManual = motorBoatManualBuilder.getResult();
+        System.out.println("\nBoat manual built:\n" + motorBoatManual.print());
     }
 }

@@ -21,6 +21,8 @@ public class MotorBoatBuilder implements Builder {
     private TypeOfFuel typeOfFuel;
     private int enginePower;
     private boolean isThereACabin;
+    private int maxSpeed;
+
 
     @Override
     public void setBrand(String brand) {
@@ -87,9 +89,12 @@ public class MotorBoatBuilder implements Builder {
         isThereACabin = thereACabin;
     }
 
+    public void setMaxSpeed(int maxSpeed) { this.maxSpeed = maxSpeed; }
+
+
     public MotorBoat getResult() {
         return new MotorBoat(brand, model, countryOfOrigin,length,price,seats,
-                projectCategory,hullMaterial,hullType, typeOfFuel, enginePower, isThereACabin, weight);
+                projectCategory,hullMaterial,hullType, typeOfFuel, enginePower, isThereACabin, weight, maxSpeed);
     }
 }
 

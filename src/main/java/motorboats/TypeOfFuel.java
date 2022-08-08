@@ -1,5 +1,18 @@
 package motorboats;
 
 public enum TypeOfFuel {
-    BENZYNA, DIESEL, ELEKTRYCZNY
+    PETROL("Benzyna"),
+    DIESEL("Diesel"),
+    ELECTRIC("Elektryczny");
+
+    private String name;
+
+    TypeOfFuel(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

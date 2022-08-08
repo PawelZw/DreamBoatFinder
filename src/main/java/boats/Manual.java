@@ -10,9 +10,10 @@ public class Manual {
     private char projectCategory;
     private final HullMaterial hullMaterial;
     private final HullType hullType;
+    private final int maxSpeed;
 
     public Manual(String brand, String model, String countryOfOrigin, double length, double price,
-                  int seats, char projectCategory, HullMaterial hullMaterial, HullType hullType) {
+                  int seats, char projectCategory, HullMaterial hullMaterial, HullType hullType, int maxSpeed) {
         this.brand = brand;
         this.model = model;
         this.countryOfOrigin = countryOfOrigin;
@@ -22,5 +23,21 @@ public class Manual {
         this.projectCategory = projectCategory;
         this.hullMaterial = hullMaterial;
         this.hullType = hullType;
+        this.maxSpeed = maxSpeed;
+    }
+
+    public String print() {
+        String info = " ";
+        info += "Type: " + hullType+ "\n";
+        info += "Brand: " + brand+ "\n";
+        info += "Model: " + model + "\n";
+        info += "Length: " + length + "\n";
+        info += "Price: " + price + "\n";
+        info += "Max speed: " + maxSpeed + "\n";
+        info += "Count of seats: " + seats + "\n";
+        info += "Project category: " + projectCategory + "\n";
+        return info;
     }
 }
+
+

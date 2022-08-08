@@ -1,14 +1,14 @@
 package boats;
 
 public enum HullMaterial {
-    ALUMINIUM("Aluminium"),
-    DREWNO("Drewno"),
-    HYPALON("HYPALON"),
-    PCW("PCW"),
-    STAL("STAL"),
-    WŁÓKNO_SZKLANE("WŁÓKNO_SZKLANE"),
-    ŻELAZOCEMENT("ŻELAZOCEMENT"),
-    INNE("INNE");
+    ALUMINUM("Aluminium"),
+    WOOD("Drewno"),
+    HYPALON("Hypalon"),
+    PVC("PCW"),
+    STEEL("Stal"),
+    FIBERGLASS("Włókno szklane"),
+    FERROCEMENT("Żelazocement"),
+    OTHERS("Inne");
 
     private String name;
 

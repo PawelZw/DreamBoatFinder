@@ -9,7 +9,7 @@ public class Director {
                 builder.setBrand("XO");
                 builder.setCountryOfOrigin("Finland");
                 builder.setEnginePower(450);
-                builder.setHullMaterial(HullMaterial.ALUMINIUM);
+                builder.setHullMaterial(HullMaterial.ALUMINUM);
                 builder.setLength(8.8);
                 builder.setModel("DFNDR 9");
                 builder.setProjectCategory('B');
@@ -19,8 +19,19 @@ public class Director {
                 builder.setModel("VR5 Cuddy");
                 builder.setLength(6.23);
                 builder.setProjectCategory('C');
-                builder.setHullMaterial(HullMaterial.WŁÓKNO_SZKLANE);
+                builder.setHullMaterial(HullMaterial.FIBERGLASS);
                 builder.setEnginePower(200);
                 builder.setCountryOfOrigin("USA");
+        }
+        public void constructAxoparBoat(Builder builder) {
+                builder.setBrand("Axopar");
+                builder.setCountryOfOrigin("Finland");
+                builder.setProjectCategory('B');
+                builder.setLength(11.5);
+                builder.setModel("37 XC Cross Cabin");
+                builder.setHullMaterial(HullMaterial.FIBERGLASS);
+                builder.setWeight(3770);
+                builder.setPrice(108680);
+
         }
 }

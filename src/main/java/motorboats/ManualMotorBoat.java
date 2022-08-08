@@ -25,18 +25,18 @@ public class ManualMotorBoat extends Manual {
                            HullType hullType, String brand1, String model1, String countryOfOrigin1,
                            double length1, double price1, int seats1, char projectCategory1,
                            HullMaterial hullMaterial1, HullType hullType1, TypeOfFuel typeOfFuel,
-                           int enginePower, boolean isThereACabin) {
+                           int enginePower, boolean isThereACabin, int maxSpeed) {
         super(brand, model, countryOfOrigin, length, price, seats, projectCategory, hullMaterial,
-                hullType);
-        this.brand = brand1;
-        this.model = model1;
-        this.countryOfOrigin = countryOfOrigin1;
-        this.length = length1;
-        this.price = price1;
-        this.seats = seats1;
-        this.projectCategory = projectCategory1;
-        this.hullMaterial = hullMaterial1;
-        this.hullType = hullType1;
+                hullType, maxSpeed);
+        this.brand = brand;
+        this.model = model;
+        this.countryOfOrigin = countryOfOrigin;
+        this.length = length;
+        this.price = price;
+        this.seats = seats;
+        this.projectCategory = projectCategory;
+        this.hullMaterial = hullMaterial;
+        this.hullType = hullType;
         this.typeOfFuel = typeOfFuel;
         this.enginePower = enginePower;
         this.isThereACabin = isThereACabin;

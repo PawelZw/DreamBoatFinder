@@ -15,22 +15,24 @@ public class SailingBoat extends Boat {
     private char projectCategory;
     private final HullMaterial hullMaterial;
     private final HullType hullType;
+    private final int maxSpeed;
 
     public SailingBoat(String brand, String model, String countryOfOrigin, double length,
                        double price, int seats, char projectCategory, HullMaterial hullMaterial,
                        HullType hullType, String brand1, String model1, String countryOfOrigin1,
                        double length1, double price1, int seats1, char projectCategory1,
-                       HullMaterial hullMaterial1, HullType hullType1, double weight) {
+                       HullMaterial hullMaterial1, HullType hullType1, double weight, int maxSpeed) {
         super(brand, model, countryOfOrigin, length, price, weight, seats, projectCategory,
-                hullMaterial, hullType);
-        this.brand = brand1;
-        this.model = model1;
-        this.countryOfOrigin = countryOfOrigin1;
-        this.length = length1;
-        this.price = price1;
-        this.seats = seats1;
-        this.projectCategory = projectCategory1;
-        this.hullMaterial = hullMaterial1;
-        this.hullType = hullType1;
+                hullMaterial, hullType, maxSpeed);
+        this.brand = brand;
+        this.model = model;
+        this.countryOfOrigin = countryOfOrigin;
+        this.length = length;
+        this.price = price;
+        this.seats = seats;
+        this.projectCategory = projectCategory;
+        this.hullMaterial = hullMaterial;
+        this.hullType = hullType;
+        this.maxSpeed = maxSpeed;
     }
 }

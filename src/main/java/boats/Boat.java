@@ -1,6 +1,6 @@
 package boats;
 
-public class Boat {
+public abstract class Boat {
     private final String brand;
     private final String model;
     private final String countryOfOrigin;

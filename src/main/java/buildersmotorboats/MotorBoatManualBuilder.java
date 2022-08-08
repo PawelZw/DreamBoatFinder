@@ -66,6 +66,11 @@ public class MotorBoatManualBuilder implements Builder{
     }
 
     @Override
+    public void setWeight(double weight) {
+
+    }
+
+    @Override
     public void setTypeOfFuel(TypeOfFuel typeOfFuel) {
 
     }

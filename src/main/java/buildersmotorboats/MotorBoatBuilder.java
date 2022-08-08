@@ -7,85 +7,89 @@ import motorboats.TypeOfFuel;
 
 public class MotorBoatBuilder implements Builder {
 
-    private String brand1;
-    private String model1;
-    private String countryOfOrigin1;
-    private double length1;
-    private double price1;
-    private int seats1;
-    private char projectCategory1;
-    private HullMaterial hullMaterial1;
-    private HullType hullType1;
+    private String brand;
+    private String model;
+    private String countryOfOrigin;
+    private double length;
+    private double price;
+    private double weight;
+    private int seats;
+    private char projectCategory;
+    private HullMaterial hullMaterial;
+    private HullType hullType;
 
     private TypeOfFuel typeOfFuel;
     private int enginePower;
     private boolean isThereACabin;
 
-
     @Override
-    public void setBrand(String brand1) {
-
-
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
     @Override
-    public void setModel(String model1) {
-
+    public void setModel(String model) {
+        this.model = model;
     }
 
     @Override
-    public void setCountryOfOrigin(String countryOfOrigin1) {
-
+    public void setCountryOfOrigin(String countryOfOrigin) {
+        this.countryOfOrigin = countryOfOrigin;
     }
 
     @Override
-    public void setLength(double length1) {
-
+    public void setLength(double length) {
+        this.length = length;
     }
 
     @Override
-    public void setPrice(double price1) {
-
+    public void setPrice(double price) {
+        this.price = price;
     }
 
     @Override
-    public void setSeats(int seats1) {
-
+    public void setSeats(int seats) {
+        this.seats = seats;
     }
 
     @Override
-    public void setProjectCategory(char projectCategory1) {
-
+    public void setProjectCategory(char projectCategory) {
+        this.projectCategory = projectCategory;
     }
 
     @Override
-    public void setHullMaterial(HullMaterial hullMaterial1) {
-
+    public void setHullMaterial(HullMaterial hullMaterial) {
+        this.hullMaterial = hullMaterial;
     }
 
     @Override
-    public void setHullType(HullType hullType1) {
-
+    public void setHullType(HullType hullType) {
+        this.hullType = hullType;
     }
 
     @Override
-    public void setTypeOfFuel(TypeOfFuel typeOfFuel1) {
-
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 
     @Override
-    public void setEnginePower(int enginePower1) {
-
+    public void setTypeOfFuel(TypeOfFuel typeOfFuel) {
+        this.typeOfFuel = typeOfFuel;
     }
 
     @Override
-    public void setIsThereACabin(boolean isThereACabin1) {
+    public void setEnginePower(int enginePower) {
+        this.enginePower = enginePower;
+    }
 
+    @Override
+    public void setIsThereACabin(boolean thereACabin) {
+        isThereACabin = thereACabin;
     }
 
     public MotorBoat getResult() {
-        return new MotorBoat(brand1, model1, countryOfOrigin1,length1,price1,seats1,
-                projectCategory1,hullMaterial1,hullType1);
+        return new MotorBoat(brand, model, countryOfOrigin,length,price,seats,
+                projectCategory,hullMaterial,hullType, typeOfFuel, enginePower, isThereACabin, weight);
     }
 }
 

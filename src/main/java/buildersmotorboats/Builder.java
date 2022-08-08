@@ -15,6 +15,7 @@ public interface Builder {
     void setProjectCategory(char projectCategory);
     void setHullMaterial(HullMaterial hullMaterial);
     void setHullType(HullType hullType);
+    void setWeight(double weight);
 
    void setTypeOfFuel(TypeOfFuel typeOfFuel);
    void setEnginePower(int enginePower);

@@ -6,18 +6,20 @@ public class Boat {
     private final String countryOfOrigin;
     private double length;
     private double price;
+    private double weight;
     private final int seats;
     private char projectCategory;
     private final HullMaterial hullMaterial;
     private final HullType hullType;
 
     public Boat(String brand, String model, String countryOfOrigin, double length, double price,
-                int seats, char projectCategory, HullMaterial hullMaterial, HullType hullType) {
+                double weight, int seats, char projectCategory, HullMaterial hullMaterial, HullType hullType) {
         this.brand = brand;
         this.model = model;
         this.countryOfOrigin = countryOfOrigin;
         this.length = length;
         this.price = price;
+        this.weight = weight;
         this.seats = seats;
         this.projectCategory = projectCategory;
         this.hullMaterial = hullMaterial;

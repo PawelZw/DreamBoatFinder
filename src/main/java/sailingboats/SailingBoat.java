@@ -20,8 +20,8 @@ public class SailingBoat extends Boat {
                        double price, int seats, char projectCategory, HullMaterial hullMaterial,
                        HullType hullType, String brand1, String model1, String countryOfOrigin1,
                        double length1, double price1, int seats1, char projectCategory1,
-                       HullMaterial hullMaterial1, HullType hullType1) {
-        super(brand, model, countryOfOrigin, length, price, seats, projectCategory,
+                       HullMaterial hullMaterial1, HullType hullType1, double weight) {
+        super(brand, model, countryOfOrigin, length, price, weight, seats, projectCategory,
                 hullMaterial, hullType);
         this.brand = brand1;
         this.model = model1;

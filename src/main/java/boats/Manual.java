@@ -4,10 +4,10 @@ public class Manual {
     private final String brand;
     private final String model;
     private final String countryOfOrigin;
-    private double length;
-    private double price;
+    private final double length;
+    private final double price;
     private final int seats;
-    private char projectCategory;
+    private final char projectCategory;
     private final HullMaterial hullMaterial;
     private final HullType hullType;
     private final int maxSpeed;
@@ -29,7 +29,7 @@ public class Manual {
     public String print() {
         String info = " ";
         info += "Type: " + hullType+ "\n";
-        info += "Brand: " + brand+ "\n";
+        info += "Brand: " + brand + "\n";
         info += "Model: " + model + "\n";
         info += "Length: " + length + "\n";
         info += "Price: " + price + "\n";
@@ -38,6 +38,9 @@ public class Manual {
         info += "Project category: " + projectCategory + "\n";
         return info;
     }
-}
+
+
+    }
+
 
 

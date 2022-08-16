@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="changing the &quot;Boat&quot; class to the abstract class. &#10;added &quot;Builder&quot; interface for &quot;Sailingboats&quot; class.&#10;added &quot;JetSki&quot; class.&#10;added &quot;Submarine&quot; class.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/boats/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/boats/HullMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/HullMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/boats/HullType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/HullType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/boats/Manual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/Manual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/buildersmotorboats/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buildersmotorboats/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/buildersmotorboats/MotorBoatBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buildersmotorboats/MotorBoatBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/buildersmotorboats/MotorBoatManualBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buildersmotorboats/MotorBoatManualBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/director/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/director/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/director/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/motorboats/ManualMotorBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/motorboats/ManualMotorBoat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/motorboats/MotorBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/motorboats/MotorBoat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/motorboats/TypeOfFuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/motorboats/TypeOfFuel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sailingboats/ManualSailingBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sailingboats/ManualSailingBoat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sailingboats/SailingBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sailingboats/SailingBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoatRent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BoatRent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builderssailingboats/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderssailingboats/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/builderssailingboats/SailingBoatBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderssailingboats/SailingBoatBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,6 +30,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2D45PgvggxFp2DO4CrigZQ3zztb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,6 +79,45 @@
       <option name="presentableId" value="Default" />
       <updated>1659945495388</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding a method to String">
+      <created>1659965423926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659965423926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding method to the &quot;Application&quot; class">
+      <created>1659974140313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659974140313</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changing the &quot;Boat&quot; class to the abstract class. &#10;added &quot;Builder&quot; interface for &quot;Sailingboats&quot; class.&#10;added &quot;JetSki&quot; class.&#10;added &quot;Submarine&quot; class.">
+      <created>1659975623418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659975623419</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding a method to String" />
+    <MESSAGE value="adding method to the &quot;Application&quot; class" />
+    <MESSAGE value="changing the &quot;Boat&quot; class to the abstract class. &#10;added &quot;Builder&quot; interface for &quot;Sailingboats&quot; class.&#10;added &quot;JetSki&quot; class.&#10;added &quot;Submarine&quot; class." />
+    <option name="LAST_COMMIT_MESSAGE" value="changing the &quot;Boat&quot; class to the abstract class. &#10;added &quot;Builder&quot; interface for &quot;Sailingboats&quot; class.&#10;added &quot;JetSki&quot; class.&#10;added &quot;Submarine&quot; class." />
   </component>
 </project>

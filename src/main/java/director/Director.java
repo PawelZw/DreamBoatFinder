@@ -4,6 +4,10 @@ import boats.HullMaterial;
 import buildersmotorboats.Builder;
 
 public class Director {
+        public void construct(Builder builder, String boatName)
+        {
+
+        }
 
         public void constructXoBoat(Builder builder) {
                 builder.setBrand("XO");

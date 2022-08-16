@@ -3,6 +3,7 @@ package builderssailingboats;
 import boats.HullMaterial;
 import boats.HullType;
 import boats.Manual;
+import sailingboats.SailingBoat;
 
 public class SailingBoatBuilder implements Builder {
 
@@ -15,16 +16,17 @@ public class SailingBoatBuilder implements Builder {
     private char projectCategory;
     private HullMaterial hullMaterial;
     private HullType hullType;
-
+    private double weight;
+    private int maxSpeed;
 
     @Override
     public void setBrand(String brand) {
-
+        this.brand = brand;
     }
 
     @Override
     public void setModel(String model) {
-
+        this.model = model;
     }
 
     @Override
@@ -66,9 +68,9 @@ public class SailingBoatBuilder implements Builder {
     public void setWeight(double weight) {
 
     }
-    public Manual getResult() {
-        return new Manual(brand, model, countryOfOrigin, length, price, seats, projectCategory,
-                hullMaterial, hullType,);
+    public SailingBoat getResult() {
+        return new SailingBoat(brand, model, countryOfOrigin, length, price, seats, projectCategory,
+                hullMaterial, hullType, weight, maxSpeed);
 
     }
 }

@@ -4,52 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="changing the &quot;Boat&quot; class to the abstract class. &#10;added &quot;Builder&quot; interface for &quot;Sailingboats&quot; class.&#10;added &quot;JetSki&quot; class.&#10;added &quot;Submarine&quot; class.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+    <list default="true" id="8b0858dc-d96f-407e-bc0f-22ee70e51b1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/context/DbContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BoatRent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BoatRent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builderssailingboats/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderssailingboats/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builderssailingboats/SailingBoatBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderssailingboats/SailingBoatBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/director/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/director/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sailingboats/SailingBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sailingboats/SailingBoat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2D45PgvggxFp2DO4CrigZQ3zztb" />
+  <component name="ProjectId" id="2DQy9jWsB7Z1hQX17wm3PSThuKu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="director.Application" />
@@ -73,34 +62,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="" />
-      <created>1659945495388</created>
+      <changelist id="8b0858dc-d96f-407e-bc0f-22ee70e51b1e" name="Changes" comment="" />
+      <created>1660645454159</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659945495388</updated>
+      <updated>1660645454159</updated>
     </task>
-    <task id="LOCAL-00001" summary="adding a method to String">
-      <created>1659965423926</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1659965423926</updated>
-    </task>
-    <task id="LOCAL-00002" summary="adding method to the &quot;Application&quot; class">
-      <created>1659974140313</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1659974140313</updated>
-    </task>
-    <task id="LOCAL-00003" summary="changing the &quot;Boat&quot; class to the abstract class. &#10;added &quot;Builder&quot; interface for &quot;Sailingboats&quot; class.&#10;added &quot;JetSki&quot; class.&#10;added &quot;Submarine&quot; class.">
-      <created>1659975623418</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659975623419</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,11 +80,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding a method to String" />
-    <MESSAGE value="adding method to the &quot;Application&quot; class" />
-    <MESSAGE value="changing the &quot;Boat&quot; class to the abstract class. &#10;added &quot;Builder&quot; interface for &quot;Sailingboats&quot; class.&#10;added &quot;JetSki&quot; class.&#10;added &quot;Submarine&quot; class." />
-    <option name="LAST_COMMIT_MESSAGE" value="changing the &quot;Boat&quot; class to the abstract class. &#10;added &quot;Builder&quot; interface for &quot;Sailingboats&quot; class.&#10;added &quot;JetSki&quot; class.&#10;added &quot;Submarine&quot; class." />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

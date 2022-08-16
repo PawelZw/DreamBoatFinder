@@ -3,11 +3,15 @@ package director;
 import boats.Manual;
 import buildersmotorboats.MotorBoatBuilder;
 import buildersmotorboats.MotorBoatManualBuilder;
+import context.DbContext;
 import motorboats.MotorBoat;
 
 
 public class Application {
     public static void main(String[] args) {
+        DbContext db = new DbContext();
+        db.connect();
+
         Director director = new Director();
 
         MotorBoatBuilder builder = new MotorBoatBuilder();

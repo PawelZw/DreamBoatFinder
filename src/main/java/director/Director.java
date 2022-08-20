@@ -2,11 +2,22 @@ package director;
 
 import boats.HullMaterial;
 import buildersmotorboats.Builder;
+import context.BoatDTO;
+import context.BoatsRepository;
 
 public class Director {
-        public void construct(Builder builder, String boatName)
-        {
 
+        private BoatsRepository boatsRepository;
+
+        public Director(BoatsRepository boatsRepository){
+                this.boatsRepository = boatsRepository;
+        }
+        public void construct(Builder builder, int boatId)
+        {
+                BoatDTO boatDTO = boatsRepository.get(boatId);
+                builder.setBrand(boatDTO.getBrand());
+                builder.setCountryOfOrigin(boatDTO.getCountryOfOrigin());
+                builder.setEnginePower(boatDTO.getEnginePower());
         }
 
         public void constructXoBoat(Builder builder) {

@@ -1,6 +1,6 @@
 package boats;
 
-public abstract class Boat {
+public abstract class Boat {                   //Abstract Class Boat is a matrix for all Boat objects
     private final String brand;
     private final String model;
     private final String countryOfOrigin;
@@ -26,7 +26,7 @@ public abstract class Boat {
         this.projectCategory = projectCategory;
         this.hullMaterial = hullMaterial;
         this.hullType = hullType;
-        this.maxSpeed = maxSpeed;
+        this.maxSpeed = maxSpeed;                           // constructor of the Abstract Class
     }
 
     public String getBrand() {
@@ -64,5 +64,5 @@ public abstract class Boat {
     public HullType getHullType() {
         return hullType;
     }
-    public int getMaxSpeed() { return maxSpeed; }
+    public int getMaxSpeed() { return maxSpeed; }                    // getters of boat class variables
 }

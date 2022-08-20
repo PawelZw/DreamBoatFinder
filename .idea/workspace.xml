@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b0858dc-d96f-407e-bc0f-22ee70e51b1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/context/DbContext.java" afterDir="false" />
+    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add SailingBoatBuilder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoatRent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BoatRent.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/builderssailingboats/SailingBoatBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderssailingboats/SailingBoatBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/director/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/director/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sailingboats/SailingBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sailingboats/SailingBoat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,20 +17,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2DQy9jWsB7Z1hQX17wm3PSThuKu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="director.Application" />
@@ -62,7 +55,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b0858dc-d96f-407e-bc0f-22ee70e51b1e" name="Changes" comment="" />
+      <changelist id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add SailingBoatBuilder" />
       <created>1660645454159</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -80,6 +73,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

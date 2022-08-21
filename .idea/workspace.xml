@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add SailingBoatBuilder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builderssailingboats/SailingBoatBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builderssailingboats/SailingBoatBuilder.java" afterDir="false" />
-    </list>
+    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add Class DbContext, BoatsRepository, BoatDTO&#10;add interface IDbContext&#10;add comments to Abstract Class Boat" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,12 +30,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="director.Application" />
@@ -61,6 +65,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660645454159</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Class DbContext, BoatsRepository, BoatDTO&#10;add interface IDbContext&#10;add comments to Abstract Class Boat">
+      <created>1661005260486</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661005260486</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,5 +85,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Class DbContext, BoatsRepository, BoatDTO&#10;add interface IDbContext&#10;add comments to Abstract Class Boat" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Class DbContext, BoatsRepository, BoatDTO&#10;add interface IDbContext&#10;add comments to Abstract Class Boat" />
   </component>
 </project>

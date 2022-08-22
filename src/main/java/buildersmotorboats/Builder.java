@@ -4,7 +4,7 @@ import boats.HullMaterial;
 import boats.HullType;
 import motorboats.TypeOfFuel;
 
-public interface Builder {
+public interface Builder {                                     // Interface Builder for Boat includes set methods
 
     void setBrand(String brand);
     void setModel(String model);

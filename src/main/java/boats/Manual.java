@@ -1,7 +1,7 @@
 package boats;
 
 public class Manual {
-    private final String brand;
+    private final String brand;                            // final variables
     private final String model;
     private final String countryOfOrigin;
     private final double length;
@@ -23,10 +23,10 @@ public class Manual {
         this.projectCategory = projectCategory;
         this.hullMaterial = hullMaterial;
         this.hullType = hullType;
-        this.maxSpeed = maxSpeed;
+        this.maxSpeed = maxSpeed;                                // Manual constructor
     }
 
-    public String print() {
+    public String print() {                                      //method printing boat info
         String info = " ";
         info += "Type: " + hullType+ "\n";
         info += "Brand: " + brand + "\n";

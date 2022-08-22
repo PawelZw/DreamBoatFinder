@@ -5,9 +5,9 @@ import boats.HullType;
 import motorboats.MotorBoat;
 import motorboats.TypeOfFuel;
 
-public class MotorBoatBuilder implements Builder {
+public class MotorBoatBuilder implements Builder {       //  Motorboat builder
 
-    private String brand;
+    private String brand;                                // Motorboat variables
     private String model;
     private String countryOfOrigin;
     private double length;

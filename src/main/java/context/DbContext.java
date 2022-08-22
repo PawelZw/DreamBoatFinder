@@ -14,7 +14,7 @@ public class DbContext implements IDbContext{
             connection = DriverManager.getConnection(connectionString, username, password);
             PreparedStatement statement = connection.prepareStatement("SELECT * FROM boats");
             statement.execute();
-            connection.close();
+
         } catch (SQLException e) {
             e.printStackTrace();
         }

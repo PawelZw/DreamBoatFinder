@@ -6,6 +6,8 @@ import buildersmotorboats.MotorBoatManualBuilder;
 import context.BoatDTO;
 import context.BoatsRepository;
 import context.DbContext;
+import filters.PriceRange;
+import filters.Validator;
 import motorboats.MotorBoat;
 
 
@@ -43,5 +45,11 @@ public class Application {
         System.out.println("\nBoat manual built:\n" + motorBoatManual.print());
 
         db.close();
+
+        Validator validator = new Validator();
+        validator.add(new PriceRange(0, 1000000));
+
+
+        System.out.println(validator.isValid(motorBoat));
     }
 }

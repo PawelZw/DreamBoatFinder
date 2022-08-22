@@ -11,7 +11,7 @@ public class BoatsRepository {
     }
 
     public BoatDTO get(int id) {
-        var result = context.execute("SELECT * FROM boats WHERE id= ");
+        var result = context.execute("SELECT * FROM boats WHERE id= " + id);
 
         BoatDTO boat = null;
         try{

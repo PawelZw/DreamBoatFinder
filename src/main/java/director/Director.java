@@ -30,6 +30,7 @@ public class Director {
                 builder.setLength(8.8);
                 builder.setModel("DFNDR 9");
                 builder.setProjectCategory('B');
+
         }
         public void constructBaylinerBoat(Builder builder) {
                 builder.setBrand("Bayliner");

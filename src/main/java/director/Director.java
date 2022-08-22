@@ -18,6 +18,8 @@ public class Director {
                 builder.setBrand(boatDTO.getBrand());
                 builder.setCountryOfOrigin(boatDTO.getCountryOfOrigin());
                 builder.setEnginePower(boatDTO.getEnginePower());
+                builder.setLength(boatDTO.getLength());
+                builder.setModel(boatDTO.getModel());
         }
 
         public void constructXoBoat(Builder builder) {

@@ -20,7 +20,9 @@ public class BoatsRepository {
                 boat = new BoatDTO(result.getInt("id"),
                         result.getString("brand"),
                         result.getString("countryOfOrigin"),
-                        result.getInt("enginePower"));
+                        result.getInt("enginePower"),
+                        result.getDouble("length"),
+                        result.getString("model"));
             }
         }catch (SQLException e) {
             e.printStackTrace();

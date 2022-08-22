@@ -4,7 +4,7 @@ import boats.Boat;
 import boats.HullMaterial;
 import boats.HullType;
 
-public class JetSki extends MotorBoat {
+public class JetSki extends MotorBoat {           // class JetSki
 
 
     public JetSki(String brand, String model, String countryOfOrigin, double length, double price,

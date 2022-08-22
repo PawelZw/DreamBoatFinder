@@ -27,7 +27,7 @@ public class MotorBoatBuilder implements Builder {       //  Motorboat builder
     @Override
     public void setBrand(String brand) {
         this.brand = brand;
-    }
+    }     // metods overrides Builder methods
 
     @Override
     public void setModel(String model) {

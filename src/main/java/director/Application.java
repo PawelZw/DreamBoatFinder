@@ -6,8 +6,7 @@ import buildersmotorboats.MotorBoatManualBuilder;
 import context.BoatDTO;
 import context.BoatsRepository;
 import context.DbContext;
-import filters.PriceRange;
-import filters.Validator;
+import filters.*;
 import motorboats.MotorBoat;
 
 
@@ -48,8 +47,14 @@ public class Application {
 
         Validator validator = new Validator();
         validator.add(new PriceRange(0, 1000000));
+        validator.add(new HorsePowerRange(0,1000));
+        validator.add(new SpeedRange(0, 200));
+        validator.add(new LengthRange(0, 100));
+        validator.add(new WeightRange(0, 100000));
+        validator.add(new SeatsRange(0,100));
 
 
         System.out.println(validator.isValid(motorBoat));
+
     }
 }

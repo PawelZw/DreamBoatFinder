@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add Class DbContext, BoatsRepository, BoatDTO&#10;add interface IDbContext&#10;add comments to Abstract Class Boat" />
+    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add Validator class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,7 +74,49 @@
       <option name="project" value="LOCAL" />
       <updated>1661005260486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add documentation">
+      <created>1661072428339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661072428339</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add documentation">
+      <created>1661153877711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661153877711</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Boats Repository">
+      <created>1661155163725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661155163725</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Director java edit">
+      <created>1661155798441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661155798441</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add interface Predicate &#10;Add Class PriceRange&#10;Add Class Validator">
+      <created>1661166342489</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661166342489</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Validator class">
+      <created>1661249565703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661249565704</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +132,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Class DbContext, BoatsRepository, BoatDTO&#10;add interface IDbContext&#10;add comments to Abstract Class Boat" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Class DbContext, BoatsRepository, BoatDTO&#10;add interface IDbContext&#10;add comments to Abstract Class Boat" />
+    <MESSAGE value="add documentation" />
+    <MESSAGE value="Add documentation" />
+    <MESSAGE value="Boats Repository" />
+    <MESSAGE value="Director java edit" />
+    <MESSAGE value="Add interface Predicate &#10;Add Class PriceRange&#10;Add Class Validator" />
+    <MESSAGE value="add Validator class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Validator class" />
   </component>
 </project>

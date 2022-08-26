@@ -7,6 +7,8 @@ import context.BoatDTO;
 import context.BoatsRepository;
 import context.DbContext;
 import filters.*;
+import menu.Menu;
+import menu.MenuItem;
 import motorboats.MotorBoat;
 
 
@@ -52,9 +54,18 @@ public class Application {
         validator.add(new LengthRange(0, 100));
         validator.add(new WeightRange(0, 100000));
         validator.add(new SeatsRange(0,100));
+        validator.add(new BrandEqual("XO"));
 
 
         System.out.println(validator.isValid(motorBoat));
+
+
+        Menu menu = new Menu("options", null);
+        menu.add(new MenuItem("Search boat", null));
+        menu.add(new MenuItem("Buy boat", null));
+        menu.add(new MenuItem("About us", null));
+
+        System.out.println(menu);
 
     }
 }

@@ -7,7 +7,7 @@ public class PriceRange implements Predicate{
    private double maxPrice;
    private double minPrice;
 
-    public PriceRange(double maxPrice, double minPrice) {
+    public PriceRange(double minPrice, double maxPrice) {
         this.maxPrice = maxPrice;
         this.minPrice = minPrice;
     }

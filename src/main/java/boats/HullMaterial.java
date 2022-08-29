@@ -10,7 +10,7 @@ public enum HullMaterial {                  //Public enum classifies the deck ma
     FERROCEMENT("Żelazocement"),
     OTHERS("Inne");
 
-    private String name;                                //??
+    private String name;
 
     HullMaterial(String name) {
         this.name = name;

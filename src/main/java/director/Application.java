@@ -55,6 +55,8 @@ public class Application {
         validator.add(new WeightRange(0, 100000));
         validator.add(new SeatsRange(0,100));
         validator.add(new BrandEqual("XO"));
+        validator.add(new ModelEqual("DFNDR9"));
+        validator.add(new CountryOfOriginEqual("Finland"));
 
 
         System.out.println(validator.isValid(motorBoat));

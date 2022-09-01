@@ -18,11 +18,15 @@ public class Menu extends MenuItem {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(getTitle());
+        sb.append(getTitle()).append("\n");
         for (int i = 0; i < menuItems.size(); i++) {
-            sb.append( menuItems.get(i).getTitle()).append("\n");
+            sb.append(i + ". ").append( menuItems.get(i).getTitle()).append("\n");
 
         }
         return sb.toString();
+    }
+
+    public void execute(int number) {
+        menuItems.get(number).getCommand().execute();
     }
 }

@@ -7,9 +7,12 @@ import context.BoatDTO;
 import context.BoatsRepository;
 import context.DbContext;
 import filters.*;
+import menu.ICommand;
 import menu.Menu;
 import menu.MenuItem;
 import motorboats.MotorBoat;
+
+import java.util.Scanner;
 
 
 public class Application {
@@ -59,15 +62,20 @@ public class Application {
         validator.add(new CountryOfOriginEqual("Finland"));
 
 
-        System.out.println(validator.isValid(motorBoat));
+        //System.out.println(validator.isValid(motorBoat));
+
+       App app = new App();
+       app.run();
 
 
-        Menu menu = new Menu("options", null);
-        menu.add(new MenuItem("Search boat", null));
-        menu.add(new MenuItem("Buy boat", null));
-        menu.add(new MenuItem("About us", null));
 
-        System.out.println(menu);
+
+
+
+
+
+
+
 
     }
 }

@@ -1,9 +1,15 @@
 package director;
 
+import buildersmotorboats.Builder;
+import buildersmotorboats.MotorBoatBuilder;
+import context.BoatsRepository;
+import context.IDbContext;
 import menu.ICommand;
 import menu.Menu;
 import menu.MenuItem;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class App {
@@ -13,7 +19,7 @@ public class App {
 
     public App() {
         menu = new Menu("options", null);
-        menu.add(new MenuItem("Search boat", null));
+        menu.add(new MenuItem("Search boat", new SearchBoat()));
         menu.add(new MenuItem("Buy boat", null));
         menu.add(new MenuItem("About us", new ICommand() {
             @Override

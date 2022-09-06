@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add Validator class">
+    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add validator method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/director/SearchBoat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/director/SelectFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/director/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +119,42 @@
       <option name="project" value="LOCAL" />
       <updated>1661249565704</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add Validator class">
+      <created>1661321915145</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661321915145</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add Brand Equal Predicate &#10;add Menu project&#10;ICommand interface &#10;MenuItem&#10;fix PriceRange class">
+      <created>1661508564446</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661508564446</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add CountryOfOriginEqual&#10;add ModelEqual">
+      <created>1661780187658</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661780187658</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add validator method">
+      <created>1661780389329</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661780389329</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add validator method">
+      <created>1662032075766</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662032075766</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +162,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -138,6 +188,25 @@
     <MESSAGE value="Director java edit" />
     <MESSAGE value="Add interface Predicate &#10;Add Class PriceRange&#10;Add Class Validator" />
     <MESSAGE value="add Validator class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Validator class" />
+    <MESSAGE value="add Brand Equal Predicate &#10;add Menu project&#10;ICommand interface &#10;MenuItem&#10;fix PriceRange class" />
+    <MESSAGE value="add CountryOfOriginEqual&#10;add ModelEqual" />
+    <MESSAGE value="add validator method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validator method" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/filters/Validator.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/filters/PriceRange.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

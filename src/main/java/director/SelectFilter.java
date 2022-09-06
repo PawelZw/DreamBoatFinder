@@ -1,9 +1,6 @@
 package director;
 
-import filters.BrandEqual;
-import filters.ModelEqual;
-import filters.PriceRange;
-import filters.Validator;
+import filters.*;
 import menu.ICommand;
 import menu.Menu;
 import menu.MenuItem;
@@ -44,6 +41,18 @@ public class SelectFilter implements ICommand {
             }
         }));
 
+        menu.add(new MenuItem("Country of origin", new ICommand() {
+            @Override
+            public void execute() {
+                System.out.println("Type country of origin");
+                Scanner scanner = new Scanner(System.in);
+                String countryOfOrigin = scanner.nextLine();
+                CountryOfOriginEqual countryOfOriginEqual = new CountryOfOriginEqual(countryOfOrigin);
+                validator.add(countryOfOriginEqual);
+
+            }
+        }));
+
         menu.add(new MenuItem("Price ", new ICommand() {
             @Override
             public void execute() {
@@ -57,12 +66,42 @@ public class SelectFilter implements ICommand {
             }
 
         }));
+
+        menu.add(new MenuItem("Horse power ", new ICommand() {
+            @Override
+            public void execute() {
+                System.out.println("Type minimum horse power:");
+                Scanner scanner = new Scanner(System.in);
+                int minimumEnginePower = scanner.nextInt();
+                System.out.println("Type maximum horse power:");
+                int maximumEnginePower = scanner.nextInt();
+                HorsePowerRange horsePowerRange = new HorsePowerRange(minimumEnginePower, maximumEnginePower);
+                validator.add(horsePowerRange);
+            }
+
+        }));
+
+        menu.add(new MenuItem("Length ", new ICommand() {
+            @Override
+            public void execute() {
+                System.out.println("Type minimum length:");
+                Scanner scanner = new Scanner(System.in);
+                double minimumLength = scanner.nextDouble();
+                System.out.println("Type maximum length:");
+                double maximumLength = scanner.nextDouble();
+                LengthRange lengthRange = new LengthRange(minimumLength, maximumLength);
+                validator.add(lengthRange);
+            }
+
+        }));
         menu.add(new MenuItem("Back ", new ICommand() {
             @Override
             public void execute() {
                 menuRunning = false;
             }
         }));
+
+
     }
 
     @Override

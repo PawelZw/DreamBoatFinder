@@ -6,9 +6,9 @@ public enum HullType {                       // Public enum classifies the deck 
     TRIMARAN("Trimaran");
 
 
-    private String name;
-    HullType(String name) {this.name = name;}
+    private String name;                     //variable defining the name in Polish
+    HullType(String name) {this.name = name;}    //constructor
 
     @Override
-    public String toString() { return name;}
+    public String toString() { return name;}     //method toString
 }

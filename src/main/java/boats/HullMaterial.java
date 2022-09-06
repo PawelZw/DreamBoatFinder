@@ -10,14 +10,14 @@ public enum HullMaterial {                  //Public enum classifies the deck ma
     FERROCEMENT("Żelazocement"),
     OTHERS("Inne");
 
-    private String name;
+    private String name;                     //variable defining the name in Polish
 
     HullMaterial(String name) {
         this.name = name;
-    }
+    }   //constructor
 
     @Override
     public String toString() {
         return name;
-    }
+    }         //method toString
 }

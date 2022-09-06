@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="add validator method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/director/SearchBoat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/director/SelectFilter.java" afterDir="false" />
+    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="create menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/director/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/director/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/director/SelectFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/SelectFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662032075766</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="create menu">
+      <created>1662480421854</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662480421854</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +197,8 @@
     <MESSAGE value="add Brand Equal Predicate &#10;add Menu project&#10;ICommand interface &#10;MenuItem&#10;fix PriceRange class" />
     <MESSAGE value="add CountryOfOriginEqual&#10;add ModelEqual" />
     <MESSAGE value="add validator method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add validator method" />
+    <MESSAGE value="create menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="create menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

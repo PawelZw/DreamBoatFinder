@@ -39,8 +39,7 @@ public class Manual {
         return info;
     }
 
-
-    }
+}
 
 
 

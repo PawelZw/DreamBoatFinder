@@ -29,7 +29,7 @@ public class Application {
         director.construct(builder, 1);
 
         MotorBoat motorBoat = builder.getResult();
-        System.out.println("Boat built:\n" + motorBoat.getHullMaterial());
+      /*  System.out.println("Boat built:\n" + motorBoat.getHullMaterial());
         System.out.println("Brand: " + motorBoat.getBrand());
         System.out.println("Model: " + motorBoat.getModel());
         System.out.println("Length: "+ motorBoat.getLength());
@@ -46,7 +46,7 @@ public class Application {
 
         director.constructXoBoat(manualBuilder);
         Manual motorBoatManual = manualBuilder.getResult();
-        System.out.println("\nBoat manual built:\n" + motorBoatManual.print());
+        System.out.println("\nBoat manual built:\n" + motorBoatManual.print()); */
 
         db.close();
 

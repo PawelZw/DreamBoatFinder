@@ -2,7 +2,7 @@ package filters;
 
 import boats.Boat;
 
-public class LengthRange implements Predicate {
+public class LengthRange implements Predicate {      //length of boat filtering class
 
     private double minLenght;
     private double maxLength;

@@ -3,7 +3,7 @@ package builderssailingboats;
 import boats.HullMaterial;
 import boats.HullType;
 
-public interface Builder {
+public interface Builder {                             // interface Builder stores setter method
 
     void setBrand(String brand);
     void setModel(String model);

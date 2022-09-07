@@ -1,6 +1,6 @@
 package context;
 
-public class BoatDTO {
+public class BoatDTO {                            // data transfer object
     private int id;
     private String brand;
     private String countryOfOrigin;

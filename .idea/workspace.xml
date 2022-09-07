@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="create menu">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/director/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Application.java" afterDir="false" />
+    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="create filters, add comments">
       <change beforePath="$PROJECT_DIR$/src/main/java/director/SelectFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/SelectFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/director/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/director/Application.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662480421854</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create filters, add comments">
+      <created>1662496452940</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662496452940</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +204,8 @@
     <MESSAGE value="add CountryOfOriginEqual&#10;add ModelEqual" />
     <MESSAGE value="add validator method" />
     <MESSAGE value="create menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="create menu" />
+    <MESSAGE value="create filters, add comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="create filters, add comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

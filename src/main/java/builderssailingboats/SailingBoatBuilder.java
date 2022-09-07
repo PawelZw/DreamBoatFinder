@@ -5,9 +5,9 @@ import boats.HullType;
 import boats.Manual;
 import sailingboats.SailingBoat;
 
-public class SailingBoatBuilder implements Builder {
+public class SailingBoatBuilder implements Builder {              // Sailing boat builder
 
-    private String brand;
+    private String brand;                                         // boats variables
     private String model;
     private String countryOfOrigin;
     private double length;

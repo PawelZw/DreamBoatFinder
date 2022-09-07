@@ -5,9 +5,9 @@ import boats.HullType;
 import boats.Manual;
 import motorboats.TypeOfFuel;
 
-public class MotorBoatManualBuilder implements Builder{
+public class MotorBoatManualBuilder implements Builder{        //MotorBoatManual builder
 
-    private String brand;
+    private String brand;                                      //motorboat variables
     private String model;
     private String countryOfOrigin;
     private double length;
@@ -88,7 +88,7 @@ public class MotorBoatManualBuilder implements Builder{
     }
 
     @Override
-    public void setMaxSpeed(int maxSpeed) {
+    public void setMaxSpeed(int maxSpeed) {                             //setters
 
     }
     public Manual getResult() {

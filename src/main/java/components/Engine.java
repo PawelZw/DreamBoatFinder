@@ -1,4 +1,4 @@
 package components;
 
-public class Engine {
+public class Engine {                         // class Engine is a component of a boat
 }

@@ -2,7 +2,7 @@ package filters;
 
 import boats.Boat;
 
-public class ModelEqual implements Predicate {
+public class ModelEqual implements Predicate {    //boats model filtering class
 
     private String model;
 

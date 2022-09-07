@@ -81,6 +81,48 @@ public class SelectFilter implements ICommand {
 
         }));
 
+        menu.add(new MenuItem("Number of seats ", new ICommand() {
+            @Override
+            public void execute() {
+                System.out.println("Type number of seats:");
+                Scanner scanner = new Scanner(System.in);
+                int minimumNumberOfSeats = scanner.nextInt();
+                System.out.println("Type maximum number of seats:");
+                int maximumNumberOfSeats = scanner.nextInt();
+                SeatsRange seatsRange = new SeatsRange(minimumNumberOfSeats, maximumNumberOfSeats);
+                validator.add(seatsRange);
+            }
+
+        }));
+
+        menu.add(new MenuItem("Speed ", new ICommand() {
+            @Override
+            public void execute() {
+                System.out.println("Type minimum speed: ");
+                Scanner scanner = new Scanner(System.in);
+                int minimumSpeed = scanner.nextInt();
+                System.out.println("Type maximum speed:");
+                int maximumSpeed = scanner.nextInt();
+                SpeedRange speedRange = new SpeedRange(minimumSpeed, maximumSpeed);
+                validator.add(speedRange);
+            }
+
+        }));
+
+        menu.add(new MenuItem("Weight ", new ICommand() {
+            @Override
+            public void execute() {
+                System.out.println("Type minimum weight: ");
+                Scanner scanner = new Scanner(System.in);
+                int minimumWeight = scanner.nextInt();
+                System.out.println("Type maximum weight: ");
+                int maximumWeight = scanner.nextInt();
+                WeightRange weightRange = new WeightRange(minimumWeight, maximumWeight);
+                validator.add(weightRange);
+            }
+
+        }));
+
         menu.add(new MenuItem("Length ", new ICommand() {
             @Override
             public void execute() {

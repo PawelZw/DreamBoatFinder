@@ -2,7 +2,7 @@ package filters;
 
 import boats.Boat;
 
-public class CountryOfOriginEqual implements Predicate {
+public class CountryOfOriginEqual implements Predicate {     //country of origin filtering class
 
     private String countryOfOrigin;
 

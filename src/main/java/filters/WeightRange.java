@@ -2,7 +2,7 @@ package filters;
 
 import boats.Boat;
 
-public class WeightRange implements Predicate {
+public class WeightRange implements Predicate {    //boats weight filtering class
 
     private double minWeight;
     private double maxWeight;

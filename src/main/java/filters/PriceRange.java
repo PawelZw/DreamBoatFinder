@@ -2,7 +2,7 @@ package filters;
 
 import boats.Boat;
 
-public class PriceRange implements Predicate{
+public class PriceRange implements Predicate{     //boats price filtering class
 
    private double maxPrice;
    private double minPrice;

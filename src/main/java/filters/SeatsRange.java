@@ -2,7 +2,7 @@ package filters;
 
 import boats.Boat;
 
-public class SeatsRange implements Predicate {
+public class SeatsRange implements Predicate {        //amount of seats filtering class
 
     private int minSeatsAmount;
     private int maxSeatsAmount;

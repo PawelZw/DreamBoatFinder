@@ -2,7 +2,7 @@ package filters;
 
 import boats.Boat;
 
-public class HorsePowerRange implements Predicate  {
+public class HorsePowerRange implements Predicate  {        //horsepower filtering class
 
     private int minEnginePower;
     private int maxEnginePower;

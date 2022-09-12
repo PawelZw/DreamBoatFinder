@@ -36,7 +36,6 @@ public class SelectFilter extends Menu {
             @Override
             public void execute() {
                 System.out.println("Type model");
-                Scanner scanner = new Scanner(System.in);
                 String model = scanner.nextLine();
                 ModelEqual modelEqual = new ModelEqual(model);
                 validator.add(modelEqual);
@@ -48,7 +47,6 @@ public class SelectFilter extends Menu {
             @Override
             public void execute() {
                 System.out.println("Type country of origin");
-                Scanner scanner = new Scanner(System.in);
                 String countryOfOrigin = scanner.nextLine();
                 CountryOfOriginEqual countryOfOriginEqual = new CountryOfOriginEqual(countryOfOrigin);
                 validator.add(countryOfOriginEqual);
@@ -60,7 +58,6 @@ public class SelectFilter extends Menu {
             @Override
             public void execute() {
                 System.out.println("Type minimum price:");
-                Scanner scanner = new Scanner(System.in);
                 double minimumPrice = scanner.nextDouble();
                 System.out.println("Type maximum price:");
                 double maximumPrice = scanner.nextDouble();
@@ -74,7 +71,6 @@ public class SelectFilter extends Menu {
             @Override
             public void execute() {
                 System.out.println("Type minimum horse power:");
-                Scanner scanner = new Scanner(System.in);
                 int minimumEnginePower = scanner.nextInt();
                 System.out.println("Type maximum horse power:");
                 int maximumEnginePower = scanner.nextInt();
@@ -88,7 +84,6 @@ public class SelectFilter extends Menu {
             @Override
             public void execute() {
                 System.out.println("Type number of seats:");
-                Scanner scanner = new Scanner(System.in);
                 int minimumNumberOfSeats = scanner.nextInt();
                 System.out.println("Type maximum number of seats:");
                 int maximumNumberOfSeats = scanner.nextInt();
@@ -102,7 +97,6 @@ public class SelectFilter extends Menu {
             @Override
             public void execute() {
                 System.out.println("Type minimum speed: ");
-                Scanner scanner = new Scanner(System.in);
                 int minimumSpeed = scanner.nextInt();
                 System.out.println("Type maximum speed:");
                 int maximumSpeed = scanner.nextInt();
@@ -116,7 +110,6 @@ public class SelectFilter extends Menu {
             @Override
             public void execute() {
                 System.out.println("Type minimum weight: ");
-                Scanner scanner = new Scanner(System.in);
                 int minimumWeight = scanner.nextInt();
                 System.out.println("Type maximum weight: ");
                 int maximumWeight = scanner.nextInt();
@@ -130,7 +123,6 @@ public class SelectFilter extends Menu {
             @Override
             public void execute() {
                 System.out.println("Type minimum length:");
-                Scanner scanner = new Scanner(System.in);
                 double minimumLength = scanner.nextDouble();
                 System.out.println("Type maximum length:");
                 double maximumLength = scanner.nextDouble();
@@ -146,7 +138,5 @@ public class SelectFilter extends Menu {
             }
         }));
 
-
     }
-
 }

@@ -14,6 +14,14 @@ public class MenuItem {
         return title;
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setCommand(ICommand command) {
+        this.command = command;
+    }
+
     public ICommand getCommand() {
         return command;
     }

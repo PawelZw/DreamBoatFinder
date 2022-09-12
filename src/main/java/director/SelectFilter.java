@@ -7,29 +7,32 @@ import menu.MenuItem;
 
 import java.util.Scanner;
 
-public class SelectFilter implements ICommand {
+public class SelectFilter extends Menu {
 
-    private boolean menuRunning;
-    private Menu menu;
+    
     private Validator validator;
 
 
-    public SelectFilter(Validator validator) {
-        this.validator = validator;
-        menu = new Menu("Choose filter", null);
 
-        menu.add(new MenuItem("Brand", new ICommand() {
+
+    public SelectFilter(Validator validator) {
+        super("Choose filter");
+        Scanner scanner = new Scanner(System.in);
+
+        this.validator = validator;
+       
+
+        add(new MenuItem("Brand", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type brand");
-                Scanner scanner = new Scanner(System.in);
                 String brand = scanner.nextLine();
                 BrandEqual brandEqual = new BrandEqual(brand);
                 validator.add(brandEqual);
 
             }
         }));
-        menu.add(new MenuItem("Model  ", new ICommand() {
+        add(new MenuItem("Model  ", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type model");
@@ -41,7 +44,7 @@ public class SelectFilter implements ICommand {
             }
         }));
 
-        menu.add(new MenuItem("Country of origin", new ICommand() {
+        add(new MenuItem("Country of origin", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type country of origin");
@@ -53,7 +56,7 @@ public class SelectFilter implements ICommand {
             }
         }));
 
-        menu.add(new MenuItem("Price ", new ICommand() {
+        add(new MenuItem("Price ", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type minimum price:");
@@ -67,7 +70,7 @@ public class SelectFilter implements ICommand {
 
         }));
 
-        menu.add(new MenuItem("Horse power ", new ICommand() {
+        add(new MenuItem("Horse power ", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type minimum horse power:");
@@ -81,7 +84,7 @@ public class SelectFilter implements ICommand {
 
         }));
 
-        menu.add(new MenuItem("Number of seats ", new ICommand() {
+        add(new MenuItem("Number of seats ", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type number of seats:");
@@ -95,7 +98,7 @@ public class SelectFilter implements ICommand {
 
         }));
 
-        menu.add(new MenuItem("Speed ", new ICommand() {
+        add(new MenuItem("Speed ", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type minimum speed: ");
@@ -109,7 +112,7 @@ public class SelectFilter implements ICommand {
 
         }));
 
-        menu.add(new MenuItem("Weight ", new ICommand() {
+        add(new MenuItem("Weight ", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type minimum weight: ");
@@ -123,7 +126,7 @@ public class SelectFilter implements ICommand {
 
         }));
 
-        menu.add(new MenuItem("Length ", new ICommand() {
+        add(new MenuItem("Length ", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Type minimum length:");
@@ -136,7 +139,7 @@ public class SelectFilter implements ICommand {
             }
 
         }));
-        menu.add(new MenuItem("Back ", new ICommand() {
+        add(new MenuItem("Back ", new ICommand() {
             @Override
             public void execute() {
                 menuRunning = false;
@@ -146,17 +149,4 @@ public class SelectFilter implements ICommand {
 
     }
 
-    @Override
-    public void execute() {
-        menuRunning = true;
-
-        Scanner scanner = new Scanner(System.in);
-
-        while (menuRunning) {
-
-            System.out.println(menu);
-            int option = scanner.nextInt();
-            menu.execute(option);
-        }
-    }
 }

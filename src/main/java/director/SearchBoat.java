@@ -7,19 +7,18 @@ import menu.MenuItem;
 
 import java.util.Scanner;
 
-public class SearchBoat implements ICommand {
+public class SearchBoat extends Menu {
 
-    private boolean menuRunning;
-    private Menu menu;
+
     private Validator validator;
 
     public SearchBoat() {
+        super("Search boat");
         this.validator = new Validator();
-        menu = new Menu("Search boat", null);
 
-        menu.add(new MenuItem("Add filter", new SelectFilter(validator)));
-        menu.add(new MenuItem("Search ", null));
-        menu.add(new MenuItem("Back ", new ICommand() {
+        add(new MenuItem("Add filter", new SelectFilter(validator)));
+        add(new MenuItem("Search ", null));
+        add(new MenuItem("Back ", new ICommand() {
             @Override
             public void execute() {
                 menuRunning = false;
@@ -28,19 +27,4 @@ public class SearchBoat implements ICommand {
 
     }
 
-
-    @Override
-    public void execute() {
-
-        menuRunning = true;
-
-        Scanner scanner = new Scanner(System.in);
-
-        while (menuRunning) {
-
-            System.out.println(menu);
-            int option = scanner.nextInt();
-            menu.execute(option);
-        }
-    }
 }

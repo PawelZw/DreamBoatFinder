@@ -65,7 +65,7 @@ public class Application {
         //System.out.println(validator.isValid(motorBoat));
 
        App app = new App();
-       app.run();
+       app.execute();
 
 
 

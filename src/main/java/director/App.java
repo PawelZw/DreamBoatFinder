@@ -12,22 +12,24 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class App {
+public class App extends Menu{
 
-    private boolean menuRunning;
-    private Menu menu;
+
+    private static final String authorBio = "author: Paweł Zwolicki\ndate:12.09.2022\nversion 1.0";
+
+
 
     public App() {
-        menu = new Menu("options", null);
-        menu.add(new MenuItem("Search boat", new SearchBoat()));
-        menu.add(new MenuItem("Buy boat", null));
-        menu.add(new MenuItem("About us", new ICommand() {
+        super("Options");
+        add(new SearchBoat());
+        add(new MenuItem("Buy boat", null));
+        add(new MenuItem("About us", new ICommand() {
             @Override
             public void execute() {
-                System.out.println("author: Paweł Zwolicki ");
+                System.out.println(authorBio);
             }
         }));
-        menu.add(new MenuItem("Exit", new ICommand() {
+        add(new MenuItem("Exit", new ICommand() {
             @Override
             public void execute() {
                 System.out.println("Wyjście z programu ");
@@ -39,17 +41,6 @@ public class App {
     }
 
 
-    public void run() {
-        menuRunning = true;
 
-        Scanner scanner = new Scanner(System.in);
-
-        while (menuRunning) {
-
-            System.out.println(menu);
-            int option = scanner.nextInt();
-            menu.execute(option);
-        }
-    }
 
 }

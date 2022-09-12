@@ -22,7 +22,9 @@ public class BoatsRepository {
                         result.getString("countryOfOrigin"),
                         result.getInt("enginePower"),
                         result.getDouble("length"),
-                        result.getString("model"));
+                        result.getString("model"),
+                        result.getDouble("price"),
+                        result.getInt("seats"));
             }
         }catch (SQLException e) {
             e.printStackTrace();

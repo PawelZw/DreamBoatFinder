@@ -8,7 +8,7 @@ public class BoatDTO {                            // data transfer object
     private double length;
     private String model;
 
-    public BoatDTO(int id, String brand, String countryOfOrigin, int enginePower, double length, String model) {
+    public BoatDTO(int id, String brand, String countryOfOrigin, int enginePower, double length, String model, double price, int seats) {
         this.id = id;
         this.brand = brand;
         this.countryOfOrigin = countryOfOrigin;

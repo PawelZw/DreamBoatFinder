@@ -34,6 +34,15 @@ public class MotorBoat extends Boat {
     public boolean isThereACabin() {
         return isThereACabin;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "typeOfFuel=" + typeOfFuel +
+                ", enginePower=" + enginePower +
+                ", isThereACabin=" + isThereACabin +
+                '}';
+    }
 }
 
 

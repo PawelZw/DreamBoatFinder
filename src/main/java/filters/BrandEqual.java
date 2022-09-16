@@ -15,4 +15,11 @@ public class BrandEqual implements Predicate {                    //brand filter
 
         return boat.getBrand().toLowerCase().equals(brand.toLowerCase());
     }
+
+    @Override
+    public String toString() {
+        return "BrandEqual{" +
+                "brand='" + brand + '\'' +
+                '}';
+    }
 }

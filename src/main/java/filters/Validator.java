@@ -24,4 +24,9 @@ public class Validator {
         }
         return true;
     }
+
+    @Override
+    public String toString() {
+        return predicates.toString();
+    }
 }

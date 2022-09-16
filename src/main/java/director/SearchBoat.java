@@ -17,13 +17,8 @@ public class SearchBoat extends Menu {
         this.validator = new Validator();
 
         add(new MenuItem("Add filter", new SelectFilter(validator)));
-        add(new MenuItem("Search ", null));
-        add(new MenuItem("Back ", new ICommand() {
-            @Override
-            public void execute() {
-                menuRunning = false;
-            }
-        }));
+        add(new MenuItem("Search ", new SubmitSearch(validator)));
+        addExitOption("Back");
 
     }
 

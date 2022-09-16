@@ -5,6 +5,7 @@ import menu.ICommand;
 import menu.Menu;
 import menu.MenuItem;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class SelectFilter extends Menu {
@@ -20,6 +21,16 @@ public class SelectFilter extends Menu {
         Scanner scanner = new Scanner(System.in);
 
         this.validator = validator;
+
+        add(new MenuItem("Show applied filters ", new ICommand() {
+            @Override
+            public void execute() {
+                System.out.println(validator);
+
+            }
+        }));
+
+
        
 
         add(new MenuItem("Brand", new ICommand() {
@@ -131,12 +142,7 @@ public class SelectFilter extends Menu {
             }
 
         }));
-        add(new MenuItem("Back ", new ICommand() {
-            @Override
-            public void execute() {
-                menuRunning = false;
-            }
-        }));
 
+        addExitOption("Back");
     }
 }

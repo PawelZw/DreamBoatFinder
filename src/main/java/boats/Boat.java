@@ -1,5 +1,7 @@
 package boats;
+/*
 
+ */
 public abstract class Boat {                   //Abstract Class Boat is a matrix for all Boat objects
     private final String brand;
     private final String model;
@@ -64,5 +66,24 @@ public abstract class Boat {                   //Abstract Class Boat is a matrix
     public HullType getHullType() {
         return hullType;
     }
-    public int getMaxSpeed() { return maxSpeed; }                    // getters of boat class variables
+    public int getMaxSpeed() { return maxSpeed; }
+
+    @Override
+    public String toString() {
+        return "Boat{" +
+                "brand: " + brand + "\n" +
+                " model: " + model + '\'' +
+                " countryOfOrigin='" + countryOfOrigin + '\'' +
+                " length=" + length +
+                " price=" + price +
+                ", weight=" + weight +
+                ", seats=" + seats +
+                ", projectCategory=" + projectCategory +
+                ", hullMaterial=" + hullMaterial +
+                ", hullType=" + hullType +
+                ", maxSpeed=" + maxSpeed +
+                '}';
+    }
+
+
 }

@@ -49,4 +49,17 @@ public class Menu extends MenuItem implements ICommand {
 
         }
     }
+    public void addExitOption(String optionName) {
+        add(new MenuItem(optionName, new ICommand() {
+            @Override
+            public void execute() {
+
+                menuRunning = false;
+
+            }
+        }));
+
+
+
+    }
 }

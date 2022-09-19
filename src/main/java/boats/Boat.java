@@ -73,15 +73,15 @@ public abstract class Boat {                   //Abstract Class Boat is a matrix
         return "Boat{" +
                 "brand: " + brand + "\n" +
                 " model: " + model + '\'' +
-                " countryOfOrigin='" + countryOfOrigin + '\'' +
-                " length=" + length +
-                " price=" + price +
-                ", weight=" + weight +
-                ", seats=" + seats +
-                ", projectCategory=" + projectCategory +
-                ", hullMaterial=" + hullMaterial +
-                ", hullType=" + hullType +
-                ", maxSpeed=" + maxSpeed +
+                " countryOfOrigin: " + countryOfOrigin + '\'' +
+                " length: " + length +
+                " price " + price +
+                " weight: " + weight +
+                " seats: " + seats +
+                " projectCategory: " + projectCategory +
+                " hullMaterial: " + hullMaterial +
+                " hullType: " + hullType +
+                " maxSpeed: " + maxSpeed +
                 '}';
     }
 

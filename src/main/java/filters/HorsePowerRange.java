@@ -1,6 +1,7 @@
 package filters;
 
 import boats.Boat;
+import motorboats.MotorBoat;
 
 public class HorsePowerRange implements Predicate  {        //horsepower filtering class
 
@@ -15,7 +16,7 @@ public class HorsePowerRange implements Predicate  {        //horsepower filteri
     @Override
     public boolean predict(Boat boat) {
 
-        return(boat.getPrice() <= maxEnginePower && boat.getPrice() >= minEnginePower);
+        return(boat.getPrice() <= maxEnginePower && boat.getPrice() >= minEnginePower);  //[]
     }
 
 }

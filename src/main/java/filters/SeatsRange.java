@@ -15,6 +15,6 @@ public class SeatsRange implements Predicate {        //amount of seats filterin
 
     @Override
     public boolean predict(Boat boat) {
-        return(boat.getPrice() <= maxSeatsAmount && boat.getPrice() >= minSeatsAmount);
+        return(boat.getSeats() <= maxSeatsAmount && boat.getSeats() >= minSeatsAmount);
     }
 }

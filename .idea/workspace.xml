@@ -4,8 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment="create filters, add comments">
-      <change beforePath="$PROJECT_DIR$/src/main/java/director/SelectFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/SelectFilter.java" afterDir="false" />
+    <list default="true" id="4a46f4d6-f268-42a7-8d05-25e3790afea9" name="Changes" comment=" change toString method">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PredicateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoatRent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BoatRent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boats/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boats/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/director/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/director/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filters/HorsePowerRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filters/HorsePowerRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filters/SeatsRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filters/SeatsRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filters/SpeedRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filters/SpeedRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/filters/WeightRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filters/WeightRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/boats/Boat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/boats/Boat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/director/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/director/Application.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +48,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="JUnit.PredicateTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="director.Application" />
       <module name="BoatRent" />
@@ -53,9 +70,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.Test" />
+      <module name="BoatRent" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BoatRent" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PredicateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateTest.speedRangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BoatRent" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PredicateTest" />
+      <option name="METHOD_NAME" value="speedRangeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PredicateTest" />
+        <item itemvalue="JUnit.PredicateTest.speedRangeTest" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +218,49 @@
       <option name="project" value="LOCAL" />
       <updated>1662496452940</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="create filters, add comments">
+      <created>1662550698427</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662550698427</updated>
+    </task>
+    <task id="LOCAL-00016" summary="menu edit">
+      <created>1662986173424</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662986173424</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Remove scanner">
+      <created>1662987708216</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662987708216</updated>
+    </task>
+    <task id="LOCAL-00018" summary="adding new columns to the database">
+      <created>1662988635519</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662988635519</updated>
+    </task>
+    <task id="LOCAL-00019" summary="create Aplication class">
+      <created>1663321599948</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663321599948</updated>
+    </task>
+    <task id="LOCAL-00020" summary=" change toString method">
+      <created>1663609613277</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663609613277</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,22 +299,15 @@
     <MESSAGE value="add validator method" />
     <MESSAGE value="create menu" />
     <MESSAGE value="create filters, add comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="create filters, add comments" />
+    <MESSAGE value="menu edit" />
+    <MESSAGE value="Remove scanner" />
+    <MESSAGE value="adding new columns to the database" />
+    <MESSAGE value="create Aplication class" />
+    <MESSAGE value=" change toString method" />
+    <option name="LAST_COMMIT_MESSAGE" value=" change toString method" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/filters/Validator.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/filters/PriceRange.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -51,6 +51,10 @@ public abstract class Boat {                   //Abstract Class Boat is a matrix
         return price;
     }
 
+    public double getWeight() {
+        return weight;
+    }
+
     public int getSeats() {
         return seats;
     }
@@ -66,7 +70,10 @@ public abstract class Boat {                   //Abstract Class Boat is a matrix
     public HullType getHullType() {
         return hullType;
     }
-    public int getMaxSpeed() { return maxSpeed; }
+
+    public int getMaxSpeed() {
+        return maxSpeed;
+    }
 
     @Override
     public String toString() {

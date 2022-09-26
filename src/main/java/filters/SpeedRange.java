@@ -14,6 +14,6 @@ public class SpeedRange implements Predicate {       //boats speed filtering cla
 
     @Override
     public boolean predict(Boat boat) {
-        return(boat.getPrice() <= maxSpeed && boat.getPrice() >= minSpeed);
+        return(boat.getMaxSpeed() <= maxSpeed && boat.getMaxSpeed() >= minSpeed);
     }
 }

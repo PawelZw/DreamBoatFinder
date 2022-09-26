@@ -15,6 +15,6 @@ public class WeightRange implements Predicate {    //boats weight filtering clas
 
     @Override
     public boolean predict(Boat boat) {
-        return(boat.getPrice() <= maxWeight && boat.getPrice() >= minWeight);
+        return(boat.getWeight() <= maxWeight && boat.getWeight() >= minWeight);
     }
 }

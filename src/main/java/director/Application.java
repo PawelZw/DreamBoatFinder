@@ -14,7 +14,12 @@ public class Application extends Menu{
     public Application() {
         super("Options");
         add(new SearchBoat());
-        add(new MenuItem("Buy boat", null));
+        add(new MenuItem("Buy boat", new ICommand() {
+            @Override
+            public void execute() {
+                System.out.println("Function not available");
+            }
+        }));
         add(new MenuItem("About us", new ICommand() {
             @Override
             public void execute() {

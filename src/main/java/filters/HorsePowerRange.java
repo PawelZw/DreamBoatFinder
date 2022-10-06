@@ -15,8 +15,11 @@ public class HorsePowerRange implements Predicate  {        //horsepower filteri
 
     @Override
     public boolean predict(Boat boat) {
-
-        return(boat.getPrice() <= maxEnginePower && boat.getPrice() >= minEnginePower);  //[]
+        if (boat instanceof MotorBoat) {
+            MotorBoat motorboat = (MotorBoat) boat;
+            return (motorboat.getEnginePower() <= maxEnginePower && motorboat.getEnginePower() >= minEnginePower);
+        } else {
+            return false;
+        }
     }
-
 }

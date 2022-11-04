@@ -1,16 +1,14 @@
-import boats.Boat;
 import buildersmotorboats.MotorBoatBuilder;
 import filters.*;
 import motorboats.MotorBoat;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 public class PredicateTest {
 
     @ParameterizedTest
-    @CsvSource(value = {"0,200,150,true", "0,200,201,false"})//dane brzegowe czyli np 199 1 itp
+    @CsvSource(value = {"0,200,150,true", "0,200,201,false"})
     public void speedRangeTest(int minSpeed, int maxSpeed, int boatsSpeed, boolean result) {
         SpeedRange speedRange = new SpeedRange(minSpeed, maxSpeed);
         MotorBoatBuilder builder = new MotorBoatBuilder();
@@ -19,6 +17,8 @@ public class PredicateTest {
         MotorBoat motorboat = builder.getResult();
 
         // Assertions.assertTrue(speedRange.predict(motorboat));
+        //import boats.Boat;
+        //import org.junit.jupiter.api.Test;
         Assertions.assertEquals(result, speedRange.predict(motorboat));
     }
 

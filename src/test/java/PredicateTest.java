@@ -16,9 +16,6 @@ public class PredicateTest {
 
         MotorBoat motorboat = builder.getResult();
 
-        // Assertions.assertTrue(speedRange.predict(motorboat));
-        //import boats.Boat;
-        //import org.junit.jupiter.api.Test;
         Assertions.assertEquals(result, speedRange.predict(motorboat));
     }
 

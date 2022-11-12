@@ -15,7 +15,6 @@ public class PredicateTest {
         builder.setMaxSpeed(boatsSpeed);
 
         MotorBoat motorboat = builder.getResult();
-
         Assertions.assertEquals(result, speedRange.predict(motorboat));
     }
 
